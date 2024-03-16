@@ -1,6 +1,6 @@
 resource "aws_api_gateway_rest_api" "lanchonete_rest_api" {
   name        = "lanchonete_rest_api"
-  description = "This is my API for demonstration purposes"
+  description = "API da lanchonete do time G11"
 }
 
 resource "aws_api_gateway_resource" "lanchonete_api_resource" {
